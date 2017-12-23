@@ -10,7 +10,7 @@ class MyComponent extends Component{
 
     Handle = function(DataStore){
         this.setState({
-            data: DataStore.map(function(objective,index){debugger
+            data: DataStore.map(function(objective,index){
                 console.log(objective)
                 return objective
             })
